@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UILayoutTest</string>
+    <string name="stringValue1">Button2</string>
+    <string name="stringValue2">Button4</string>
+    <string name="stringValue3">Button5</string>
+    <string name="stringValue4">Button3</string>
+    <string name="stringValue5">Button1</string>
+</resources>

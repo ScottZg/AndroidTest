@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_hot_city"
+    android:layout_width="@dimen/common_size_186px"
+    android:layout_height="@dimen/common_size_72px"
+    android:background="@drawable/selector_hot_city_bg"
+    android:gravity="center"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:textColor="@drawable/selector_hot_city_tv_color"
+    android:textSize="@dimen/common_text_size_28px"
+    >
+</TextView>

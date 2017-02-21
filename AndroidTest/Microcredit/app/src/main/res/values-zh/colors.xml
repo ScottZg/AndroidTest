@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33b8ee</color>
+    <color name="colorPrimaryDark">@color/headViewBg</color>
+    <color name="colorAccent">@color/headViewBg</color>
+    <!--head view-->
+    <color name="headViewBg">@color/color_439df8</color>
+    <color name="headViewTitle">@android:color/white</color>
+
+    <color name="color_39383b">#39383b</color>
+    <color name="menu_title_color">#5d5c5c</color>
+
+    <color name="color_9fa7b4">#9fa7b4</color>
+    <color name="color_5c5c5c">#5c5c5c</color>
+    <color name="color_c3c2c2">#c3c2c2</color>
+    <color name="color_525252">#525252</color>
+    <color name="color_212121">#212121</color>
+    <color name="color_cececf">#cececf</color>
+    <color name="color_cecece">#cecece</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_fe7c7f">#fe7c7f</color>
+    <color name="color_efeff4">#efeff4</color>
+    <color name="color_8f91a4">#8f91a4</color>
+
+    <!--信贷源-->
+    <color name="color_text1_232323">#232323</color>
+    <color name="color_text2_ffffff">#ffffff</color>
+    <color name="color_text3_cdcdcd">#cdcdcd</color>
+    <color name="color_text4_8d8d8d">#8d8d8d</color>
+    <color name="color_text5_8d8d8d">#a3a3a3</color>
+
+    <color name="color_window_bg_f3f5f7">#f3f5f7</color>
+    <color name="color_divide_e4e4e4">#e4e4e4</color>
+    <color name="color_user_text_333333">#333333</color>
+    <color name="color_long_btn_17b7f7">#17b7f7</color>
+    <color name="color__header_divide_d0d0d0">#d0d0d0</color>
+    <color name="color__protocol_text_5ab3e3">#5ab3e3</color>
+
+    <color name="color_adadad">#adadad</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_bdbdbd">#bdbdbd</color>
+    <color name="color_439df8">#439df8</color>
+    <color name="color_6d85cd">#6d85cd</color>
+
+    <!--贷款平台-->
+    <!--渐变色start-->
+    <color name="color_gradient_start">#4372e4</color>
+    <color name="color_gradient_end">#6592f9</color>
+    <!--渐变色end-->
+
+    <color name="color_454545">#454545</color>
+    <color name="color_b2b0b0">#b2b0b0</color>
+    <color name="color_ececec">#ececec</color>
+    <color name="color_90d860">#90d860</color>
+    <color name="color_919ab4">#919ab4</color>
+    <color name="color_eff2f9">#eff2f9</color>
+
+    <color name="color_1a6d85cd">#1a6d85cd</color>
+
+    <color name="default_text_color">#FF000000</color>
+</resources>

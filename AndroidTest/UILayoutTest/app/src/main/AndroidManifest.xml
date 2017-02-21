@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhanggui.uilayouttest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".LayoutActivity"
+            android:label="LinderLayoutDemo" />
+        <activity
+            android:name=".MainLayoutActivity"
+            android:label="Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".RelativeActivity"
+            android:label="RelativeLayout" />
+        <activity
+            android:name=".FrameActivity"
+            android:label="FrameLayout" />
+        <activity android:name=".PercentActivity" />
+        <activity android:name=".CustomActivity">
+
+        </activity>
+    </application>
+
+</manifest>

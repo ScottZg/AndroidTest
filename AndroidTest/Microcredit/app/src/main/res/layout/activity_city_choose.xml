@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_head"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.shuqu.microcredit.widget.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:clipToPadding="false"
+            android:divider="@color/color_dddddd"
+            android:dividerHeight="@dimen/common_line_width"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:background="@android:color/white"
+            />
+
+        <com.shuqu.microcredit.widget.SideBar
+            android:id="@+id/sideBar"
+            android:layout_width="@dimen/common_size_72px"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/common_size_108px"
+            />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/sectionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@mipmap/city_list_section_name_bg"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:minWidth="75dp"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+    </RelativeLayout>
+</LinearLayout>

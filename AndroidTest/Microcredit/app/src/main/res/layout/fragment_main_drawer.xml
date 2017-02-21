@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_eff2f9"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_size_348px"
+        android:orientation="vertical"
+        android:background="@mipmap/user_tv_bg"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/iv_user_head"
+            android:layout_width="@dimen/common_size_116px"
+            android:layout_height="@dimen/common_size_116px"
+            android:layout_marginTop="@dimen/common_size_72px"
+            />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/common_text_size_34px"
+            tools:text="您好"
+            />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_size_16px"
+            android:maxLines="1"
+            android:textSize="@dimen/common_text_size_24px"
+            android:textColor="@color/color_666666"
+            tools:text="110"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_drawer_bottom_tip"
+        android:textSize="@dimen/common_text_size_24px"
+        android:textColor="@color/color_6d85cd"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/common_size_62px"
+        />
+
+    <ListView
+        android:id="@+id/lv_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:layout_below="@id/ll_top"
+        android:layout_above="@id/tv_tip"
+        android:divider="@null"
+        >
+    </ListView>
+
+</RelativeLayout>
+

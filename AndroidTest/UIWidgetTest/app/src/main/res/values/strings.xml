@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">UIWidget</string>
+	<string name="stringValue1">Hello World!</string>
+	<string name="stringValue2">第一个TextView</string>
+	<string name="stringValue3">Button</string>
+</resources>

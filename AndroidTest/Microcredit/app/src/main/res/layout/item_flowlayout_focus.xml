@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_focus_city"
+    android:layout_width="@dimen/common_size_202px"
+    android:layout_height="@dimen/common_size_88px"
+    android:layout_marginRight="@dimen/common_size_10px"
+    android:layout_marginBottom="@dimen/common_size_10px"
+    >
+
+    <TextView
+        android:id="@+id/tv_city_focus"
+        android:layout_width="@dimen/common_size_186px"
+        android:layout_height="@dimen/common_size_72px"
+        android:background="@drawable/shape_hot_city_bg_normal"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/common_size_30px"
+        android:paddingRight="@dimen/common_size_30px"
+        android:singleLine="true"
+        android:textSize="@dimen/common_text_size_28px"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="middle"
+        >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/img_remove_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/city_focus_close"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
+
+
+

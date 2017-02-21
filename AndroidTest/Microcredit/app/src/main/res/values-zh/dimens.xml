@@ -1,0 +1,104 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--标题栏高度-->
+    <dimen name="head_view_height">56dp</dimen>
+    <dimen name="head_title">17sp</dimen>
+
+    <dimen name="menu_icon_size">18dp</dimen>
+    <dimen name="menu_text_size">15sp</dimen>
+    <dimen name="menu_item_padding">3dp</dimen>
+
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_15dp">15dp</dimen>
+
+    <!--高度-->
+
+    <!--信贷员-->
+    <dimen name="common_size_492px">246dp</dimen>
+    <dimen name="common_size_372px">186dp</dimen>
+    <dimen name="common_size_348px">174dp</dimen>
+    <dimen name="common_size_316px">158dp</dimen>
+    <dimen name="common_size_508px">254dp</dimen>
+    <dimen name="common_size_286px">143dp</dimen>
+    <dimen name="common_size_180px">90dp</dimen>
+    <dimen name="common_size_234px">117dp</dimen>
+    <dimen name="common_size_220px">110dp</dimen>
+    <dimen name="common_size_210px">105dp</dimen>
+    <dimen name="common_size_204px">102dp</dimen>
+    <dimen name="common_size_202px">101dp</dimen>
+    <dimen name="common_size_186px">93dp</dimen>
+    <dimen name="common_size_184px">92dp</dimen>
+    <dimen name="common_size_172px">86dp</dimen>
+    <dimen name="common_size_168px">84dp</dimen>
+    <dimen name="common_size_154px">77dp</dimen>
+    <dimen name="common_size_150px">75dp</dimen>
+    <dimen name="common_size_148px">74dp</dimen>
+    <dimen name="common_size_128px">64dp</dimen>
+    <dimen name="common_size_126px">63dp</dimen>
+    <dimen name="common_size_122px">61dp</dimen>
+    <dimen name="common_size_116px">58dp</dimen>
+    <dimen name="common_size_110px">55dp</dimen>
+    <dimen name="common_size_108px">54dp</dimen>
+    <dimen name="common_size_104px">52dp</dimen>
+    <dimen name="common_size_102px">51dp</dimen>
+    <dimen name="common_size_98px">49dp</dimen>
+    <dimen name="common_size_96px">48dp</dimen>
+    <dimen name="common_size_94px">47dp</dimen>
+    <dimen name="common_size_92px">46dp</dimen>
+    <dimen name="common_size_90px">45dp</dimen>
+    <dimen name="common_size_88px">44dp</dimen>
+    <dimen name="common_size_78px">39dp</dimen>
+    <dimen name="common_size_76px">38dp</dimen>
+    <dimen name="common_size_74px">37dp</dimen>
+    <dimen name="common_size_72px">36dp</dimen>
+    <dimen name="common_size_70px">35dp</dimen>
+    <dimen name="common_size_68px">34dp</dimen>
+    <dimen name="common_size_66px">33dp</dimen>
+    <dimen name="common_size_64px">32dp</dimen>
+    <dimen name="common_size_62px">31dp</dimen>
+    <dimen name="common_size_60px">30dp</dimen>
+    <dimen name="common_size_58px">29dp</dimen>
+    <dimen name="common_size_52px">26dp</dimen>
+    <dimen name="common_size_50px">25dp</dimen>
+    <dimen name="common_size_48px">24dp</dimen>
+    <dimen name="common_size_44px">22dp</dimen>
+    <dimen name="common_size_42px">21dp</dimen>
+    <dimen name="common_size_40px">20dp</dimen>
+    <dimen name="common_size_38px">19dp</dimen>
+    <dimen name="common_size_36px">18dp</dimen>
+    <dimen name="common_size_34px">17dp</dimen>
+    <dimen name="common_size_32px">16dp</dimen>
+    <dimen name="common_size_30px">15dp</dimen>
+    <dimen name="common_size_28px">14dp</dimen>
+    <dimen name="common_size_26px">13dp</dimen>
+    <dimen name="common_size_24px">12dp</dimen>
+    <dimen name="common_size_22px">11dp</dimen>
+    <dimen name="common_size_20px">10dp</dimen>
+    <dimen name="common_size_18px">9dp</dimen>
+    <dimen name="common_size_16px">8dp</dimen>
+    <dimen name="common_size_14px">7dp</dimen>
+    <dimen name="common_size_12px">6dp</dimen>
+    <dimen name="common_size_10px">5dp</dimen>
+    <dimen name="common_size_8px">4dp</dimen>
+    <dimen name="common_size_6px">3dp</dimen>
+    <dimen name="common_size_1px">0.5dp</dimen>
+
+    <dimen name="common_line_width">0.5dp</dimen>
+
+    <!--文字-->
+    <dimen name="common_text_size_34px">17sp</dimen>
+    <dimen name="common_text_size_32px">16sp</dimen>
+    <dimen name="common_text_size_30px">15sp</dimen>
+    <dimen name="common_text_size_28px">14sp</dimen>
+    <dimen name="common_text_size_26px">13sp</dimen>
+    <dimen name="common_text_size_24px">12sp</dimen>
+    <dimen name="common_text_size_22px">11sp</dimen>
+    <dimen name="common_text_size_20px">10sp</dimen>
+
+    <dimen name="default_text_size">13sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="tab_bg_corner">20dp</dimen>
+</resources>
