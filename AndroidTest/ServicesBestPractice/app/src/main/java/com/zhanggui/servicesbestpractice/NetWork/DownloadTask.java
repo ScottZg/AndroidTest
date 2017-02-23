@@ -127,6 +127,7 @@ public class DownloadTask extends AsyncTask <String,Integer,Integer>{
         if (progress > lastProgress) {
             listener.onProgress(progress);
             lastProgress = progress;
+
         }
     }
 
