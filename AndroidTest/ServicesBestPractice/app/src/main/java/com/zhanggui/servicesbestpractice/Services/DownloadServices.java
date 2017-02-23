@@ -32,6 +32,8 @@ public class DownloadServices extends Service {
 
     private String downloadUrl;
 
+    private int pausesProgress;
+
     private DownloadListener listener = new DownloadListener() {
         @Override
         public void onProgress(int progress) {
@@ -59,6 +61,7 @@ public class DownloadServices extends Service {
         public void onPaused() {
             downloadTask = null;
             Toast.makeText(DownloadServices.this, "Paused", Toast.LENGTH_SHORT).show();
+            getNotificationManager().notify(1,getNotification("Pause",pausesProgress));
 
         }
 
@@ -105,6 +108,7 @@ public class DownloadServices extends Service {
         public void pauseDownload() {
             if (downloadTask != null) {
                 downloadTask.pauseDownload();
+
             }
         }
         public void cancelDownload() {
@@ -141,6 +145,7 @@ public class DownloadServices extends Service {
         if (progress>=0) {
             builder.setContentText(progress + "%");
             builder.setProgress(100,progress,false);
+            pausesProgress = progress;
         }
         return builder.build();
     }
